@@ -3,11 +3,11 @@
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 
-# Museum-of-candy
+# 3-auth
 
-Short one page website that was created duing self-paced learning. Uses Bootstrap 4 to manipulate the site. NOTE: Navigation buttons do not work. 
+_Third in-class project_ 
 
-Site published at https://bikmanas.github.io/-auth/
+Site published at https://bikmanas.github.io/3-auth/
 
 Design: [Sign Up](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
 
