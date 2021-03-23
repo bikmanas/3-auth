@@ -1,0 +1,21 @@
+![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
+![Security Status](https://img.shields.io/security-headers?label=Security&url=https%3A%2F%2Fgithub.com&style=flat-square)
+![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
+![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
+
+# Museum-of-candy
+
+Short one page website that was created duing self-paced learning. Uses Bootstrap 4 to manipulate the site. NOTE: Navigation buttons do not work. 
+
+Site published at https://bikmanas.github.io/museum-of-candy/
+
+Design: [Sign Up](https://cdn.discordapp.com/attachments/648536139677958156/648860801997996052/day1dr.png)
+
+## Project features
+- HTML
+- CSS 
+- Multi-page
+
+## Authors
+
+[Povilas B.] (https://github.com/bikmanas)
