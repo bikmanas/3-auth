@@ -18,4 +18,4 @@ Design: [Sign Up](https://cdn.discordapp.com/attachments/648536139677958156/6488
 
 ## Authors
 
-[Povilas B.] (https://github.com/bikmanas)
+[Povilas B] (https://github.com/bikmanas)
