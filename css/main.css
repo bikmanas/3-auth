@@ -28,6 +28,7 @@ body{
 }
 
 .main-title{
+    display: inline-block;
     margin-bottom: 100px;
     color: #fff;
     font-size: 30px;
@@ -35,14 +36,16 @@ body{
 }
 
 .bottom-links{
-
+    display: inline-block;
 }
 
 .link{
+    display: inline-block;
     color: #fff;
 }
 
 .symbol{
+    display: inline-block;
     color: #fff;
 }
 
@@ -52,4 +55,29 @@ body{
     padding: 40px;
     background-color: #fff;
     float: left;
+}
+
+.form{
+    display: inline-block;
+    width: 100%;
+}
+
+.form > .form-row{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.form > .form-row:last-of-type{
+   margin-bottom: 0;
+}
+
+.form > .form-row > label{
+    display: inline;
+    width: 100%;
+}
+
+.form > .form-row > input{
+    display: inline;
+    width: 100%;
 }
