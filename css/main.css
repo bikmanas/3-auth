@@ -20,7 +20,6 @@ body{
 }
 
 .left-column{
-    display: inline-block;
     width: 40%;
     float: left;
     background-color: #0051a9;
@@ -50,9 +49,8 @@ body{
 }
 
 .right-column{
-    display: inline-block;
     width: 60%;
-    padding: 40px;
+    padding: 60px;
     background-color: #fff;
     float: left;
 }
@@ -73,11 +71,64 @@ body{
 }
 
 .form > .form-row > label{
-    display: inline;
+    display: inline-block;
     width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #777;
 }
 
 .form > .form-row > input{
-    display: inline;
+    display: inline-block;
     width: 100%;
+    line-height: 35px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #F6F6F6;
+}
+.form > .form-row > input:focus{
+    outline: none;
+}
+
+.form > .form-row > button{
+    float: left;
+    background-color: #0061D9;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.form > .form-row > span{
+    float: left;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 15px;
+    margin-left: 10px;
+}
+
+.form > .form-row > a{
+    float: left;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 15px;
+    color: #0061D9;
+    text-decoration: none;
+}
+
+.form > .form-row > a:hover{
+    text-decoration: underline;
+}
+
+.form > .form-row > button:hover{
+    background-color: #B6B6B6;
+    color: #0061D9;
+   
 }
