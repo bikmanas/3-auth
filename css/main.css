@@ -20,15 +20,26 @@ body{
     position: relative;
 }
 
+.img{
+    background-image: url("darbas.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .left-column{
     width: 40%;
     float: left;
-    background-color: #0051a9;
+    /* background-color: #0051a9; */
     padding: 40px;
     position: absolute;
     top: 30px;
     left: 0;
     bottom: 30px;
+    background-image: url("darbas.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-title{
