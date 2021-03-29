@@ -7,8 +7,20 @@ body * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-body{
-    background-color: #8ecadf;
+
+body::before{
+    background-color: #0B2148;
+    content: ' ';
+    background-image: url("../img/sky.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;    
+    filter: blur(7px);
 }
 
 .container{
@@ -17,25 +29,50 @@ body{
     margin-top: 100px;
     margin-left: calc((100% - 860px) / 2);
     margin-right: calc((100% - 860px) / 2);
+    position: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, 60%);
 }
 
 .left-column{
     width: 40%;
     float: left;
-    background-color: #0051a9;
     padding: 40px;
+    background-color: #66748E;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    bottom: 30px;
+}
+
+.left-column::before{
+    content: ' ';
+    background-image: url("../img/mountains.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;    
+    filter: blur(1px);
 }
 
 .main-title{
     display: inline-block;
-    margin-bottom: 100px;
     color: #fff;
     font-size: 30px;
     line-height: 30px;
+    position: relative;
 }
 
 .bottom-links{
     display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
 }
 
 .link{
@@ -49,10 +86,11 @@ body{
 }
 
 .right-column{
+    display: inline-block;
     width: 60%;
     padding: 60px;
     background-color: #fff;
-    float: left;
+    float: right;
     position: relative;
 }
 
