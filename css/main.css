@@ -7,8 +7,22 @@ body * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-body{
-    background-color: #8ecadf;
+.top{
+    margin-top: 300px;
+}
+
+body::before{
+    content: ' ';
+    background-image: url("sky.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;    
+    filter: blur(4px);
 }
 
 .container{
@@ -17,29 +31,31 @@ body{
     margin-top: 100px;
     margin-left: calc((100% - 860px) / 2);
     margin-right: calc((100% - 860px) / 2);
-    position: relative;
-}
-
-.img{
-    background-image: url("darbas.jfif");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: absolute;
 }
 
 .left-column{
     width: 40%;
     float: left;
-    /* background-color: #0051a9; */
     padding: 40px;
     position: absolute;
     top: 30px;
     left: 0;
     bottom: 30px;
-    background-image: url("darbas.jfif");
+}
+
+.left-column::before{
+    content: ' ';
+    background-image: url("mountains.jfif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;    
+    filter: blur(1px);
 }
 
 .main-title{
@@ -47,6 +63,7 @@ body{
     color: #fff;
     font-size: 30px;
     line-height: 30px;
+    position: relative;
 }
 
 .bottom-links{
