@@ -9,7 +9,6 @@ body * {
 
 
 body::before{
-    background-color: #0B2148;
     content: ' ';
     background-image: url("../img/sky.jfif");
     background-position: center;
@@ -19,20 +18,18 @@ body::before{
     top: 0px;
     right: 0px;
     bottom: 0px;
-    left: 0px;    
+    left: 0px;
+    background-color: #0B2148;    
     filter: blur(7px);
 }
 
 .container{
     display: inline-block;
     width: 860px;
-    margin-top: 100px;
-    margin-left: calc((100% - 860px) / 2);
-    margin-right: calc((100% - 860px) / 2);
-    position: flex;
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(0, 60%);
+    transform: translate(-50%, -50%);
 }
 
 .left-column{
