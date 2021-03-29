@@ -19,7 +19,7 @@ body::before{
     right: 0px;
     bottom: 0px;
     left: 0px;    
-    filter: blur(4px);
+    filter: blur(7px);
 }
 
 .container{
@@ -55,7 +55,7 @@ body::before{
     right: 0px;
     bottom: 0px;
     left: 0px;    
-    filter: blur(1px);
+    filter: blur(2px);
 }
 
 .main-title{
