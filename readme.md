@@ -5,8 +5,7 @@
 
 # 3-auth
 
-_Third in-class project_
-FOR EDUCATIONAL PURPOSES ONLY
+Third in-class project.
 
 Site published at https://bikmanas.github.io/3-auth/
 
