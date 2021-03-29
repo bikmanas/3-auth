@@ -9,6 +9,7 @@ body * {
 
 
 body::before{
+    background-color: #0B2148;
     content: ' ';
     background-image: url("../img/sky.jfif");
     background-position: center;
