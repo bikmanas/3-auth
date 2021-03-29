@@ -7,9 +7,6 @@ body * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.top{
-    margin-top: 300px;
-}
 
 body::before{
     content: ' ';
@@ -31,7 +28,10 @@ body::before{
     margin-top: 100px;
     margin-left: calc((100% - 860px) / 2);
     margin-right: calc((100% - 860px) / 2);
-    position: absolute;
+    position: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, 60%);
 }
 
 .left-column{
